@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>About Me - Malcolm</title>
+		<!-- This is a form of internal CSS You have to use the Style HTMl Tag -->
+		<style type="text/css">
+			h1 {
+				font-size: 40px;
+				text-align: center;
+			}
+			p {
+				font-size: 25px;
+			}
+			img{
+				width: 400px;
+			}
+		</style>
+
+		<!-- This is a form of External CSS, here we're importing a css file from the same folder -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<!-- h1 to h7 act as header elements, the larger the number the smaller the font -->
+		<h1>About Me!</h1>
+		<!-- A Comment is text that doesn't effect the code -->
+
+		<!-- Divs are a way for us to structure our code and html elements  -->
+		<div class="Intro">
+			<h3>This is a page about Malcolm!</h3>
+			<!-- <p> is the paragraph tag we use this for like content text -->
+			<p class="blue-text">This is a page about my journey as a teacher, teaching tech to my awesome students! I've been programming for about 5 years now, building websites, mobile apps, games and more! My goals are to one day open a game studio and make different and unique games.</p>
+			<img src="Thinking-of-getting-a-cat.png">
+		</div>
+		
+
+		<div class="Interests">
+			<h1>Interests</h1>
+			<!-- <ol> and <ul> are ordered and underorded lists, ol uses numbers ul uses bullet points -->
+			<ol>
+				<!-- <li> is list item, they're used within <ol> -->
+				<li class="list-item blue-text">Food</li>
+				<li class="list-item">Video Games</li>
+				<li class="list-item">Books</li>
+				<li class="list-item">Pets</li>
+			</ol>
+		</div>
+
+		<!-- Here's an example of inline CSS using the style Attribute -->
+		<div class="Experience" style="background-color: darkred;">
+			<h2>Experience</h2>
+			<p>I am full-stack software engineer, who has worked for many start-ups in NY. I've used many programming languages such as JavaScript and Python </p>
+		</div>
+
+		<div class="Social">
+			<!-- This is how we link to pages -->
+			<a href="https://www.google.com/">A Search Engine</a>
+			<!-- This how we link to other pages in our site -->
+			<a href="contact.html">Contact</a>
+		</div>
+	</body>
+</html>

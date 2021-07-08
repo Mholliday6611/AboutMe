@@ -1,0 +1,22 @@
+body{
+	background-color: #160F29;
+	color: white;
+}
+.list-item{
+	font-size: 20px;
+	text-decoration: underline;
+	list-style: none;
+}
+
+div {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.Intro{
+	font-style: italic;
+}
+.Interests{
+	background-color: black;
+}
